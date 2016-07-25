@@ -1,6 +1,12 @@
 /*
 CUSTOM CSS DROIDREP
 */
+.ps-abs{
+	position:absolute;
+}
+.right{
+	right:0px;
+}
 .pd-10{
 	padding:10px;
 }
@@ -821,6 +827,9 @@ body,html{
 .work figure {
 	width:calc(100% / 3 - 30px);
 }
+.work_lg figure {
+	width:calc(100% / 2 - 30px);
+}
 }
 
 /* Small viewports — Old monitors, netbooks, tablets (landscape), etc. */
@@ -892,6 +901,9 @@ body,html{
 .work figure {
 	width:calc(100% / 2 - 30px);
 }
+.work_lg figure {
+	width:calc(100% / 2 - 30px);
+}
 }
 
 /* Mobile phones (Landscape) and Tablets (Portrait) */
@@ -925,6 +937,9 @@ body,html{
 	margin-left:-147.5px;
 }
 .work figure {
+	width:calc(100% - 30px);
+}
+.work_lg figure {
 	width:calc(100% - 30px);
 }
 .wrapper-navbouton{

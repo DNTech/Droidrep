@@ -808,6 +808,9 @@ body,html{
 /* Others wide screen -2 */
  
 @media only screen and (max-width: 2000px) {
+.visible-sm{
+	display:none;
+}
 #main-container-menu {
 	display:none;
 }
@@ -816,6 +819,9 @@ body,html{
 /* Others wide screen */
  
 @media only screen and (max-width: 1200px) {
+.visible-sm{
+	display:none;
+}
 #main-header,.navbar,.container,.container-footer,.thank,.oldnew,.copyright {
 	width:940px;
 	margin-left:-465px;
@@ -835,6 +841,9 @@ body,html{
 /* Small viewports — Old monitors, netbooks, tablets (landscape), etc. */
  
 @media only screen and (max-width: 965px) {
+.visible-sm{
+	display:block !important;
+}
 #main-header,.navbar,.container,.container-footer,.thank,.oldnew,.copyright {
 	width:835px;
 	margin-left:-417.5px;
@@ -873,6 +882,9 @@ body,html{
 /* Smaller viewports — more tablets, old monitors */
  
 @media only screen and (max-width: 860px) {
+.visible-sm{
+	display:block !important;
+}
 #main-header,.navbar,.container,.container-footer,.thank,.oldnew,.copyright {
 	width:715px;
 	margin-left:-357.5px;
@@ -885,6 +897,9 @@ body,html{
 /* Even smaller viewports — more tablets, etc. */
  
 @media only screen and (max-width: 740px) {
+.visible-sm{
+	display:block !important;
+}
 #main-header,.navbar,.container,.container-footer,.thank,.oldnew,.copyright {
 	width:585px;
 	margin-left:-292.5px;
@@ -909,6 +924,9 @@ body,html{
 /* Mobile phones (Landscape) and Tablets (Portrait) */
  
 @media only screen and (max-width: 610px) {
+.visible-sm{
+	display:block !important;
+}
 #main-header,.navbar,.container,.container-footer,.thank,.oldnew,.copyright {
 	width:455px;
 	margin-left:-227.5px;
@@ -932,6 +950,9 @@ body,html{
 /* Mobile phones (Landscape) and Tablets (Portrait) */
  
 @media only screen and (max-width: 480px) {
+.visible-sm{
+	display:block !important;
+}
 #main-header,.navbar,.container,.container-footer,.thank,.oldnew,.copyright {
 	width:295px;
 	margin-left:-147.5px;
@@ -956,6 +977,9 @@ body,html{
 /* Mobile phones (iphone4/5)*/
  
 @media only screen and (max-width: 320px) {
+.visible-sm{
+	display:block !important;
+}
 
 }
 
